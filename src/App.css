@@ -1,0 +1,145 @@
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.App {
+  text-align: center;
+  /* display: flex; */
+}
+
+html,
+body,
+#root,
+.App,
+.main {
+  height: 100%;
+  margin: 0;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background-color: rgb(255, 204, 0);
+}
+
+/* header * {
+  display: inline-block;
+} */
+
+.navbar {
+  display: inline-block;
+  /* background-color: black; */
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-items {
+  height: 100%;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 14px;
+  margin: 0;
+}
+
+/* .main {
+  display: inline-block;
+  width: 75%;
+} */
+
+section {
+  background: rgb(117, 182, 247);
+  width: 100%;
+  min-height: 55vh;
+  /* border: 0.5px solid rgb(78, 135, 249); */
+  padding: 10px;
+}
+
+section h2 {
+  padding-top: 10%;
+}
+
+.contain-image-and-paragraph * {
+  display: inline-block;
+  width: 45%;
+  /* padding: 50px 0px; */
+  margin: 10px 30px;
+}
+
+.profile-pic {
+  width: 30%;
+}
+
+.paragraph-about-me {
+  font-size: 1.5rem;
+}
+
+.project {
+  display: inline-block;
+  width: 22%;
+  margin: 30px 10px;
+  padding: 5px;
+  height: 30vh;
+  /* border: 0.5px solid rgb(200, 78, 249); */
+  background-color: aliceblue;
+  border-radius: 7px;
+  vertical-align: middle;
+}
+
+.project:hover {
+  color: transparent;
+}
+
+.neighbor-fave:hover {
+  background-image: url("NeighborFavePicWide.png");
+  background-size: contain;
+}
+
+.chocolatier:hover {
+  background-image: url("ChocolatierImage.png");
+  background-size: contain;
+}
+
+.art:hover {
+  background-image: url("BrrEmoji.jpg");
+  background-size: contain;
+}
+
+.blog:hover {
+  background-image: url("PicOfBlogCyberOptimism.png");
+  background-size: contain;
+}
