@@ -1,41 +1,5 @@
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
 .App {
   text-align: center;
-  /* display: flex; */
 }
 
 html,
@@ -48,6 +12,7 @@ body,
 }
 
 header {
+  font-family: "Open Sans", sans-serif;
   height: 90px;
   width: 100%;
   position: fixed;
@@ -60,13 +25,8 @@ header {
   top: 7%;
 }
 
-/* header * {
-  display: inline-block;
-} */
-
 .navbar {
   display: inline-block;
-  /* background-color: black; */
   text-align: right;
   width: 100%;
   height: 100%;
@@ -86,6 +46,7 @@ header {
   color: rgb(253, 253, 252);
   text-decoration: none;
   font-size: 1.2rem;
+  font-weight: bold;
   padding: 10px;
   border-radius: 5px;
 }
@@ -97,19 +58,15 @@ header {
   background-color: rgb(205, 230, 44);
 }
 
-/* .main {
-  display: inline-block;
-  width: 75%;
-} */
-
 #grad-slide {
+  font-family: "Open Sans", sans-serif;
+
   height: 80vh;
   width: 100%;
   padding-top: 60px;
   display: flex;
   border-right: solid rgb(37, 255, 200) 30px;
   /* background-image: url("TediSimplerSlide.png"); */
-
   /* background-color: rgb(205, 230, 44); */
 }
 
@@ -126,27 +83,19 @@ header {
 }
 
 .grad-div {
-  display: flex;
-  flex-direction: column;
-
-  /* justify-content: center; */
-  /*
-  background-color: rgb(7, 254, 184); */
-
   background-color: rgb(37, 255, 200);
 }
 
-/* .grad-div * {
-  height: 100%;
-} */
-
 .purple-div {
-  font-size: 1.5rem;
-  padding: 60px;
-
-  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  padding: 50px 40px 100px 40px;
 }
 
+.purple-div p {
+  height: 100%;
+}
 #divider {
   width: 100%;
   height: 150px;
@@ -155,6 +104,7 @@ header {
 }
 
 section {
+  font-family: "Open Sans", sans-serif;
   background: rgb(243, 247, 250);
   width: 100%;
   min-height: 60vh;
@@ -189,9 +139,10 @@ section h2 {
 
 .project {
   display: inline-block;
+  font-weight: bold;
   width: 22%;
   margin: 30px 10px;
-  padding: 5px;
+  padding: 10px 10px 10px 3px;
   height: 30vh;
   color: rgba(0, 0, 206, 0.979);
   /* border: 0.5px solid rgb(200, 78, 249); */

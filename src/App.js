@@ -68,8 +68,8 @@ function App() {
           <div class="purple-div">
             <p>Hello, my name is Tedi Lowney.</p>
             <p>
-              I'm a full stack software developer with a background in
-              Information Technology and Media Studies.
+              I'm a full stack software developer with a background in IT and
+              Media Studies.
             </p>
           </div>
         </div>
