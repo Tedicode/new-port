@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+* {
+  box-sizing: border-box;
+}
 
 html,
 body,
@@ -140,11 +143,12 @@ section h2 {
 
 .project {
   display: inline-block;
+  font-size: 1.2rem;
   font-weight: bold;
   width: 22%;
   margin: 30px 10px;
-  padding: 10px 10px 10px 10px;
-  height: 30vh;
+  padding: 10px 10px 5px 10px;
+  height: 35vh;
   color: rgba(0, 0, 206, 0.979);
   /* border: 0.5px solid rgb(200, 78, 249); */
   background-color: rgb(181, 240, 255);
