@@ -48,14 +48,16 @@ body,
 }
 
 header {
-  height: 80px;
+  height: 90px;
   width: 100%;
   position: fixed;
   background-color: rgb(62, 0, 106);
 }
 
-.tiny-lego-tedi {
+.top-linked-in-icon {
   position: absolute;
+  left: 1%;
+  top: 7%;
 }
 
 /* header * {
@@ -137,7 +139,7 @@ header {
 
 .purple-div {
   font-size: 1.5rem;
-  padding: 30px;
+  padding: 60px;
 
   /* background-color: blueviolet; */
 }

@@ -26,13 +26,16 @@ function App() {
       </header> */}
       {/* <header>My header</header> */}
       <header>
-        {/* <img
-          class="tiny-lego-tedi"
-          height="80px"
-          width="80px"
-          src={legoTedi}
-          alt="lego portrait"
-        /> */}
+        <a href="https://www.linkedin.com/in/tedilowney">
+          <img
+            class="top-linked-in-icon"
+            height="70px"
+            width="70px"
+            src={linkedInIcon}
+            alt="lego portrait"
+          />
+        </a>
+
         <nav class="navbar">
           <ul class="nav-items">
             <li>
