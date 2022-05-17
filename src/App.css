@@ -44,14 +44,18 @@ body,
 .App,
 .main {
   height: 100%;
-  margin: 0;
+  margin: 0px;
 }
 
 header {
   height: 80px;
   width: 100%;
   position: fixed;
-  background-color: rgb(255, 204, 0);
+  background-color: rgb(62, 0, 106);
+}
+
+.tiny-lego-tedi {
+  position: absolute;
 }
 
 /* header * {
@@ -61,7 +65,7 @@ header {
 .navbar {
   display: inline-block;
   /* background-color: black; */
-  text-align: center;
+  text-align: right;
   width: 100%;
   height: 100%;
 }
@@ -72,8 +76,23 @@ header {
 
 .navbar li {
   display: inline-block;
-  padding: 14px;
-  margin: 0;
+  padding: 12px;
+  margin: 0px;
+}
+
+.nav-link {
+  color: rgb(253, 253, 252);
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+  font-weight: bold;
+  background-color: rgb(205, 230, 44);
 }
 
 /* .main {
@@ -81,10 +100,58 @@ header {
   width: 75%;
 } */
 
-section {
-  background: rgb(117, 182, 247);
+#grad-slide {
+  height: 80vh;
   width: 100%;
-  min-height: 55vh;
+  padding-top: 60px;
+  display: flex;
+  /* background-image: url("TediSimplerSlide.png"); */
+
+  /* background-color: rgb(205, 230, 44); */
+}
+
+#grad-slide > img {
+  display: inline-block;
+  height: 100%;
+  width: 30%;
+}
+
+#grad-slide > div {
+  display: inline-block;
+  height: 100%;
+  width: 70%;
+}
+
+.grad-div {
+  display: flex;
+  flex-direction: column;
+
+  /* justify-content: center; */
+
+  background-color: rgb(123, 251, 251);
+}
+
+/* .grad-div * {
+  height: 100%;
+} */
+
+.purple-div {
+  font-size: 1.5rem;
+  padding: 30px;
+
+  /* background-color: blueviolet; */
+}
+
+#divider {
+  width: 100%;
+  height: 150px;
+  background-color: rgb(205, 230, 44);
+}
+
+section {
+  background: rgb(243, 247, 250);
+  width: 100%;
+  min-height: 60vh;
   /* border: 0.5px solid rgb(78, 135, 249); */
   padding: 10px;
 }
@@ -93,19 +160,20 @@ section h2 {
   padding-top: 10%;
 }
 
-.contain-image-and-paragraph * {
+/* .container-about-paragraphs * {
   display: inline-block;
   width: 45%;
-  /* padding: 50px 0px; */
   margin: 10px 30px;
 }
 
 .profile-pic {
   width: 30%;
-}
+} */
 
-.paragraph-about-me {
+.container-about-paragraphs p {
   font-size: 1.5rem;
+  text-align: left;
+  padding: 20px;
 }
 
 .project {
@@ -142,4 +210,12 @@ section h2 {
 .blog:hover {
   background-image: url("PicOfBlogCyberOptimism.png");
   background-size: contain;
+}
+
+.skills-div div {
+  display: inline-block;
+}
+
+.contact-link {
+  padding: 10px 5px;
 }

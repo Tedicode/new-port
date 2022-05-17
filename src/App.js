@@ -1,4 +1,8 @@
-import logo from "./logo.svg";
+import tediSlide from "./TediSimplerSlide.png";
+import legoTedi from "./LegoTediPic.png";
+import githubIcon from "./github-icon.png";
+import linkedInIcon from "./linkedIn-icon.png";
+import reactLogo from "./tech-icons/react-logo.png";
 import profilePic from "./profile-pic.PNG";
 import "./App.css";
 
@@ -22,40 +26,76 @@ function App() {
       </header> */}
       {/* <header>My header</header> */}
       <header>
+        {/* <img
+          class="tiny-lego-tedi"
+          height="80px"
+          width="80px"
+          src={legoTedi}
+          alt="lego portrait"
+        /> */}
         <nav class="navbar">
           <ul class="nav-items">
             <li>
-              <a href="#about-me">About Me</a>
+              <a class="nav-link" href="#">
+                About Me
+              </a>
             </li>
             <li>
-              <a href="#my-projects">Projects</a>
+              <a class="nav-link" href="#my-projects">
+                Projects
+              </a>
             </li>
             <li>
-              <a href="#my-skills">Skills</a>
+              <a class="nav-link" href="#my-skills">
+                Skills
+              </a>
             </li>
             <li>
-              <a href="#contact-me">Contact Me</a>
+              <a class="nav-link" href="#contact-me">
+                Contact Me
+              </a>
             </li>
           </ul>
         </nav>
       </header>
-
-      <main class="main">
-        <section id="about-me">
-          <h2></h2>
-          <div class="contain-image-and-paragraph">
-            <img src={profilePic} alt="profile pic" class="profile-pic" />
-            <p class="paragraph-about-me">
-              My name is Tedi Lowney. all about meall about meall about meall
-              about meall about meall about meall about meall about meall
-              aboutMy name is Tedi Lowney. all about meall about meall about
-              meall about meall about meall about meall about meall about meall
-              about meall about meall about meall about meall about meall ab
-              meall about meall about meall about meall about meall about meall
-              about meall about meall about me
+      <div id="grad-slide">
+        <img src={legoTedi} alt="graphic" />
+        <div class="grad-div">
+          {/* <div class="white-div">me</div> */}
+          <div class="purple-div">
+            <p>Hello, my name is Tedi Lowney.</p>
+            <p>
+              I'm a full stack software developer with a background in
+              Information Technology and Media Studies.
             </p>
           </div>
-        </section>
+        </div>
+      </div>
+
+      <div id="divider"></div>
+      <main class="main">
+        {/* <section id="about-me">
+          <h2>About Me</h2>
+          <div class="container-about-paragraphs">
+            <img src={profilePic} alt="profile pic" class="profile-pic" />
+            <p class="paragraph-about-me">
+              Hello, I am a full stack software developer with a background in
+              Information Technology and Media Studies.
+            </p>
+            <p>
+              I trained in front-end and back-end JavaScript development at
+              Fullstack Academy. Prior to my shift into software engineering I
+              worked in IT, both for a large healthcare system and in an
+              educational setting.{" "}
+            </p>
+            <p>
+              I enjoy creative and social subjects as much as I do technology.
+              As these forces are ever more entwined, I look forward to building
+              upon the tech stack I've learned at bootcamp and discovering new
+              directions in technology.
+            </p>
+          </div>
+        </section> */}
 
         <section id="my-projects">
           <h2>My Projects</h2>
@@ -63,32 +103,75 @@ function App() {
             <h3>NeighborFave</h3>
             <p>
               A full-stack progressive web app for neighbors exchanging favors
-              and chat. (Our capstone project at FSA)
+              and chat. Our capstone project at FSA
             </p>
           </div>
           <div class="project chocolatier">
             <h3>Chocolatier</h3>
-            <p>An E-commerce site for chocolates. (A Team project at FSA)</p>
+            <p>An E-commerce site for chocolates. A Team project at FSA</p>
           </div>
-          <div class="project art">
-            <h3>Art</h3>
-            <p>Some of my Canvas Paintings</p>
-          </div>
+
+          <a href="https://www.artpal.com/FunPaint">
+            <div class="project art">
+              <h3>Art</h3>
+              <p>My Origial Canvas Paintings</p>
+            </div>
+          </a>
           <div class="project blog">
             <h3>Blog</h3>
             <p>
-              Cybergovernance, digital wellness in the information age, and
-              various Media topics
+              Internet governance, digital wellness, presence research, and
+              other topics in new media
             </p>
           </div>
         </section>
 
         <section id="my-skills">
-          <h2>My Skills</h2>my skills here
+          <h2>My Skills</h2>
+          <div class="skills-div">
+            <div>
+              <img
+                src={reactLogo}
+                height="100px"
+                width="100px"
+                alt="react logo"
+              />
+              <p>React</p>
+            </div>
+            <div>
+              <img
+                src={reactLogo}
+                height="100px"
+                width="100px"
+                alt="react logo"
+              />
+              <p>React</p>
+            </div>
+            <div>
+              <img
+                src={reactLogo}
+                height="100px"
+                width="100px"
+                alt="react logo"
+              />
+              <p>React</p>
+            </div>
+          </div>
         </section>
 
         <section id="contact-me">
-          <h2>Contact me</h2>contact stuff here
+          <h2>Contact me</h2>
+          <div className="contact-div">
+            <a
+              className="contact-link"
+              href="https://www.linkedin.com/in/tedilowney"
+            >
+              <img src={linkedInIcon} height="100px" width="100px" />
+            </a>
+            <a className="contact-link" href="https://github.com/Tedicode">
+              <img src={githubIcon} height="100px" width="100px" />
+            </a>
+          </div>
         </section>
       </main>
     </div>
