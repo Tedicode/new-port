@@ -107,6 +107,7 @@ header {
   width: 100%;
   padding-top: 60px;
   display: flex;
+  border-right: solid rgb(37, 255, 200) 30px;
   /* background-image: url("TediSimplerSlide.png"); */
 
   /* background-color: rgb(205, 230, 44); */
@@ -129,8 +130,10 @@ header {
   flex-direction: column;
 
   /* justify-content: center; */
+  /*
+  background-color: rgb(7, 254, 184); */
 
-  background-color: rgb(123, 251, 251);
+  background-color: rgb(37, 255, 200);
 }
 
 /* .grad-div * {
@@ -148,6 +151,7 @@ header {
   width: 100%;
   height: 150px;
   background-color: rgb(205, 230, 44);
+  border-right: solid rgb(205, 230, 44) 30px;
 }
 
 section {
@@ -156,6 +160,7 @@ section {
   min-height: 60vh;
   /* border: 0.5px solid rgb(78, 135, 249); */
   padding: 10px;
+  border-right: solid rgb(243, 247, 250) 10px;
 }
 
 section h2 {
@@ -178,14 +183,19 @@ section h2 {
   padding: 20px;
 }
 
+#my-projects {
+  color: rgba(0, 0, 206, 0.979);
+}
+
 .project {
   display: inline-block;
   width: 22%;
   margin: 30px 10px;
   padding: 5px;
   height: 30vh;
+  color: rgba(0, 0, 206, 0.979);
   /* border: 0.5px solid rgb(200, 78, 249); */
-  background-color: aliceblue;
+  background-color: rgb(181, 240, 255);
   border-radius: 7px;
   vertical-align: middle;
 }

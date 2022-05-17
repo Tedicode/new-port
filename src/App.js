@@ -102,17 +102,21 @@ function App() {
 
         <section id="my-projects">
           <h2>My Projects</h2>
-          <div class="project neighbor-fave">
-            <h3>NeighborFave</h3>
-            <p>
-              A full-stack progressive web app for neighbors exchanging favors
-              and chat. Our capstone project at FSA
-            </p>
-          </div>
-          <div class="project chocolatier">
-            <h3>Chocolatier</h3>
-            <p>An E-commerce site for chocolates. A Team project at FSA</p>
-          </div>
+          <a href="https://github.com/cs-team-02/neighbor-fave">
+            <div class="project neighbor-fave">
+              <h3>NeighborFave</h3>
+              <p>
+                A full-stack progressive web app for neighbors exchanging favors
+                and chat. Our capstone project at FSA
+              </p>
+            </div>
+          </a>
+          <a href="https://graceshopper-chocolates.herokuapp.com/">
+            <div class="project chocolatier">
+              <h3>Chocolatier</h3>
+              <p>An E-commerce site for chocolates. A Team project at FSA</p>
+            </div>
+          </a>
 
           <a href="https://www.artpal.com/FunPaint">
             <div class="project art">
@@ -120,13 +124,16 @@ function App() {
               <p>My Origial Canvas Paintings</p>
             </div>
           </a>
-          <div class="project blog">
-            <h3>Blog</h3>
-            <p>
-              Internet governance, digital wellness, presence research, and
-              other topics in new media
-            </p>
-          </div>
+
+          <a href="https://cyberoptimism.weebly.com">
+            <div class="project blog">
+              <h3>Blog</h3>
+              <p>
+                Internet governance, digital wellness, presence research, and
+                other topics in new media
+              </p>
+            </div>
+          </a>
         </section>
 
         <section id="my-skills">
