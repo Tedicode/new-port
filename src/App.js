@@ -185,6 +185,7 @@ function App() {
           </div>
         </section>
       </main>
+      <footer className="footer">{/* <p>Thank you for visiting!</p> */}</footer>
     </div>
   );
 }
