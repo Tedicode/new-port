@@ -83,6 +83,7 @@ section h2 {
   padding-top: 8%;
   font-size: 3.5vw;
   color: black;
+  font-family: "Poppins", sans-serif;
   /* text-transform: capitalize; */
   /* text-decoration: underline; */
 }
@@ -124,6 +125,7 @@ section h2 {
 }
 
 .my-name {
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 4vw;
 }
 
@@ -146,26 +148,27 @@ section h2 {
   font-weight: bold;
 }
 
-/* .project-sub-div {
-  display: block;
-} */
-
 .project {
   display: inline-block;
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 2.3vw;
   font-weight: bold;
   width: 45%;
-  margin: 15px 15px;
+  margin: 20px;
   /* padding: 10px 10px 5px 10px; */
-  padding: 5px 15px 15px 15px;
+  padding: 5px 25px 15px 25px;
   height: 40vh;
-  color: rgb(0, 0, 141);
+  color: rgb(42, 42, 186);
   border: 0.5px solid rgba(200, 78, 249, 0.274);
   background-color: rgb(201, 244, 255);
   border-radius: 15px;
   vertical-align: middle;
 }
 
+/* .project p,
+small {
+  color: rgb(82, 82, 188);
+} */
 .project:hover {
   color: transparent;
 }
