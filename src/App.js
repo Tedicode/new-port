@@ -94,13 +94,34 @@ function App() {
             </div>
           </div>
           <p class="my-paragraph">
-            as;ldkjfas;ld fja;sdl fkjasdf as;ldkjfas;ld fja;sdl fkjasdf
-            as;ldkjfas;ld fja; fkjasdf as;ldkjfas;ld fja;sdl fkjasdf
-            as;ldkjfas;ld fja;sdl fkjasdf as;ldkja;sdl fkjasdf as;ldkjfas;ld
-            fja;sdl fkjasdf akjfas;ld fja;sdl fkjasdf as;ldkja;sdl fkjasdf
-            as;ldkjfas;ld fja;sdl fkjasdf akjfas;ld fja;s as;ldkja;sdl fkjasdf
-            as;ldkjfas;ld fja;sdl fkjasdf akjfas;ld fja;s as;ldkja;sdl fkjasdf
-            as;ldkjfas;ld fja;sdl fkjasdf akjfas;ld fja;s
+            Hello, and thank you for visiting my portfolio page. My name is Tedi
+            and I’m a software developer with a background in IT and Media
+            Studies.
+          </p>
+
+          <p class="my-paragraph">
+            I trained in full stack JavaScript development at the Fullstack
+            Academy bootcamp. Here we learned to build RESTful APIs with the
+            Express framework and Postgres databases, with Sequelize as the ORM
+            of choice. We learned React and Redux on the front end, building
+            components and quickly learning the importance of having a system
+            for state management. In the first six weeks I learned the PERN
+            stack and built a simple CRUD app. By the end of bootcamp, my
+            capstone team conceived, designed and built {""}
+            <a
+              className="link-to-NF"
+              href="https://github.com/cs-team-02/neighbor-fave"
+            >
+              NeighborFave
+            </a>
+            , a full stack progressive web app, downloadable on mobile and
+            desktop, in just twenty days.
+          </p>
+          <p class="my-paragraph">
+            I can’t wait to learn more as a developer, building for the web,
+            apps or microservices within larger systems. It will be a bonus to
+            work within a tech company that aims to improve some corner of our
+            world - to be cleaner, safer, more efficient, or more fun!
           </p>
         </section>
 
