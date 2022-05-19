@@ -185,7 +185,9 @@ function App() {
             <a className="contact-link" href="https://github.com/Tedicode">
               <img src={githubIcon} height="100px" width="100px" />
             </a>
-            <p>tmlowney1@gmail.com</p>
+            <a className="contact-link" href="mailto:tmlowney1@gmail.com?">
+              <p>tmlowney1@gmail.com</p>
+            </a>
           </div>
         </section>
       </main>

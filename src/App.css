@@ -223,6 +223,8 @@ section h2 {
 
 .contact-link {
   padding: 10px 8px;
+  text-decoration: none;
+  color: black;
 }
 
 .footer {
