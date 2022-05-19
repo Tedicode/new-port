@@ -2,7 +2,15 @@ import tediSlide from "./TediSimplerSlide.png";
 import legoTedi from "./LegoTediPic.png";
 import githubIcon from "./github-icon.png";
 import linkedInIcon from "./linkedIn-icon.png";
+import javascriptLogo from "./tech-icons/javascript-logo.png";
 import reactLogo from "./tech-icons/react-logo.png";
+import reduxLogo from "./tech-icons/redux-logo.png";
+import expressLogo from "./tech-icons/express-logo.png";
+import sequelizeLogo from "./tech-icons/sequelize-logo.png";
+import postgressLogo from "./tech-icons/postgres-logo.png";
+import nodeLogo from "./tech-icons/node-logo.png";
+import htmlLogo from "./tech-icons/html-logo.png";
+import cssLogo from "./tech-icons/css-logo.png";
 import profilePic from "./LegoTediPicCentered.png";
 import "./App.css";
 
@@ -177,7 +185,16 @@ function App() {
         <section id="my-skills">
           <h2>Skills </h2>
           <div class="skills-div">
-            <div>
+            <div class="single-skill-div">
+              <img
+                src={javascriptLogo}
+                height="100px"
+                width="100px"
+                alt="react logo"
+              />
+              <p>JavaScript</p>
+            </div>
+            <div class="single-skill-div">
               <img
                 src={reactLogo}
                 height="100px"
@@ -186,23 +203,68 @@ function App() {
               />
               <p>React</p>
             </div>
-            <div>
+            <div class="single-skill-div">
               <img
-                src={reactLogo}
+                src={reduxLogo}
                 height="100px"
                 width="100px"
                 alt="react logo"
               />
-              <p>React</p>
+              <p>Redux</p>
             </div>
-            <div>
+            <div class="single-skill-div">
               <img
-                src={reactLogo}
+                src={nodeLogo}
                 height="100px"
                 width="100px"
                 alt="react logo"
               />
-              <p>React</p>
+              <p>Node.js</p>
+            </div>
+            <div class="single-skill-div">
+              <img
+                src={htmlLogo}
+                height="100px"
+                width="100px"
+                alt="react logo"
+              />
+              <p>HTML5</p>
+            </div>
+            <div class="single-skill-div">
+              <img
+                src={cssLogo}
+                height="100px"
+                width="100px"
+                alt="react logo"
+              />
+              <p>CSS3</p>
+            </div>
+            <div class="single-skill-div">
+              <img
+                src={expressLogo}
+                height="100px"
+                width="100px"
+                alt="react logo"
+              />
+              <p>Express</p>
+            </div>
+            <div class="single-skill-div">
+              <img
+                src={sequelizeLogo}
+                height="100px"
+                width="100px"
+                alt="react logo"
+              />
+              <p>Sequelize</p>
+            </div>
+            <div class="single-skill-div">
+              <img
+                src={postgressLogo}
+                height="100px"
+                width="100px"
+                alt="react logo"
+              />
+              <p>PostgreSQL</p>
             </div>
           </div>
         </section>
