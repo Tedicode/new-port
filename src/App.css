@@ -16,7 +16,8 @@ body,
 }
 
 header {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Roboto", sans-serif;
   height: 90px;
   width: 100%;
   position: fixed;
@@ -63,45 +64,6 @@ header {
   background-color: rgb(205, 230, 44);
 }
 
-/* #grad-slide {
-  font-family: "Open Sans", sans-serif;
-
-  height: 80vh;
-  width: 100%;
-  padding-top: 60px;
-  display: flex;
-  border-right: solid rgb(37, 255, 200) 30px;
-  background-image: url("TediSimplerSlide.png");
-  background-color: rgb(205, 230, 44);
-} */
-/*
-#grad-slide > img {
-  display: inline-block;
-  height: 100%;
-  width: 30%;
-}
-
-#grad-slide > div {
-  display: inline-block;
-  height: 100%;
-  width: 70%;
-}
-
-.grad-div {
-  background-color: rgb(37, 255, 200);
-} */
-
-/* .purple-div {
-  display: flex;
-  flex-direction: column;
-  font-size: 2rem;
-  padding: 50px 40px 100px 40px;
-} */
-
-/* .purple-div p {
-  height: 100%;
-} */
-
 #divider {
   width: 100%;
   height: 240px;
@@ -110,7 +72,8 @@ header {
 }
 
 section {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Roboto", sans-serif;
   background: rgb(243, 247, 250);
   width: 100%;
   min-height: 77vh;
@@ -123,7 +86,6 @@ section h2 {
   padding-top: 17%;
   font-size: 3.5vw;
   color: black;
-  /* padding-bottom: 1%; */
 }
 
 #about-me {
@@ -184,7 +146,7 @@ section h2 {
   padding: 10px 10px 5px 10px;
   height: 40vh;
   color: rgba(0, 0, 206, 0.979);
-  /* border: 0.5px solid rgb(200, 78, 249); */
+  border: 0.5px solid rgba(200, 78, 249, 0.274);
   background-color: rgb(181, 240, 255);
   border-radius: 7px;
   vertical-align: middle;
@@ -241,9 +203,6 @@ section h2 {
     position: absolute;
     top: 20%;
     width: 100%;
-  }
-  .navbar li {
-    padding: 2px;
   }
 
   .nav-link {
@@ -326,6 +285,10 @@ section h2 {
   section h2 {
     font-size: 6vw;
   }
+
+  .navbar li {
+    padding: 2px;
+  }
 }
 
 @media screen and (max-width: 340px) {
@@ -346,10 +309,5 @@ section h2 {
     font-weight: 900;
     padding: 1px;
     border-radius: 5px;
-  }
-
-  .purple-div {
-    font-size: 1.1rem;
-    padding: 40px 20px 0px 20px;
   }
 }
