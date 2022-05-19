@@ -272,6 +272,7 @@ section h2 {
 
   .intro-div {
     font-size: 1.4em;
+    margin: 0px 0px;
   }
 
   .my-name {
@@ -280,6 +281,7 @@ section h2 {
 
   .my-title {
     font-size: 5vw;
+    margin: 0px 0px;
   }
 
   .profile-pic {
