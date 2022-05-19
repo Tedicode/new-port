@@ -102,9 +102,8 @@ function App() {
             </div>
           </div>
           <p class="my-paragraph">
-            Hello, and thank you for visiting my portfolio page. My name is Tedi
-            and I’m a software developer with a background in IT and Media
-            Studies.
+            Hello, welcome to my portfolio page. My name is Tedi and I’m a
+            software developer with a background in IT and Media Studies.
           </p>
 
           <p class="my-paragraph">
