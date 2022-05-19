@@ -151,12 +151,12 @@ section h2 {
 .project {
   display: inline-block;
   font-family: "Poppins", sans-serif;
-  font-size: 2.3vw;
+  font-size: 2vw;
   /* font-weight: bold; */
   width: 45%;
   margin: 20px;
   /* padding: 10px 10px 5px 10px; */
-  padding: 0px 25px 15px 25px;
+  padding: 0px 15px 10px 15px;
   height: 40vh;
   color: rgb(42, 42, 186);
   border: 0.5px solid rgba(200, 78, 249, 0.274);
@@ -165,9 +165,8 @@ section h2 {
   vertical-align: middle;
 }
 
-/* .project p,
-small {
-  color: rgb(82, 82, 188);
+/* .project small {
+  font-weight: bold;
 } */
 .project:hover {
   color: transparent;

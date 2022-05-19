@@ -144,7 +144,7 @@ function App() {
                   A full-stack progressive web app for neighbors exchanging
                   favors and chat
                 </p>
-                <small>Capstone project at FSA</small>
+                <small>Capstone Project at FSA</small>
               </div>
             </a>
             <a href="https://graceshopper-chocolates.herokuapp.com/">
@@ -153,7 +153,7 @@ function App() {
                 <p>
                   An E-commerce site for chocolates, a full stack application{" "}
                 </p>
-                <small>Team project at FSA</small>
+                <small>A Team Project at FSA</small>
               </div>
             </a>
           </div>
