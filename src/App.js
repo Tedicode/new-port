@@ -119,7 +119,7 @@ function App() {
           </p>
           <p class="my-paragraph">
             I can’t wait to learn more as a developer, building for the web,
-            apps or microservices within larger systems. It will be a bonus to
+            apps and microservices within larger systems. It will be a bonus to
             work within a tech company that aims to improve some corner of our
             world - to be cleaner, safer, more efficient, or more fun!
           </p>
@@ -127,38 +127,51 @@ function App() {
 
         <section id="my-projects">
           <h2>Projects </h2>
-          <a href="https://github.com/cs-team-02/neighbor-fave">
-            <div class="project neighbor-fave">
-              <h3>NeighborFave</h3>
-              <p>
-                A full-stack progressive web app for neighbors exchanging favors
-                and chat. Our capstone project at FSA
-              </p>
-            </div>
-          </a>
-          <a href="https://graceshopper-chocolates.herokuapp.com/">
-            <div class="project chocolatier">
-              <h3>Chocolatier</h3>
-              <p>An E-commerce site for chocolates. A Team project at FSA</p>
-            </div>
-          </a>
 
-          <a href="https://www.artpal.com/FunPaint">
-            <div class="project art">
-              <h3>Art</h3>
-              <p>My Origial Canvas Paintings</p>
-            </div>
-          </a>
+          <div class="web-projects project-sub-div">
+            {" "}
+            <a href="https://github.com/cs-team-02/neighbor-fave">
+              <div class="project neighbor-fave">
+                <h3>NeighborFave</h3>
+                <p>
+                  A full-stack progressive web app for neighbors exchanging
+                  favors and chat
+                </p>
+                <small>Capstone project at FSA</small>
+              </div>
+            </a>
+            <a href="https://graceshopper-chocolates.herokuapp.com/">
+              <div class="project chocolatier">
+                <h3>Chocolatier</h3>
+                <p>
+                  An E-commerce site for chocolates, a full stack application{" "}
+                </p>
+                <small>Team project at FSA</small>
+              </div>
+            </a>
+          </div>
+          <div class="non-web-projects project-sub-div">
+            {" "}
+            <a href="https://www.artpal.com/FunPaint">
+              <div class="project art">
+                <h3>Art</h3>
+                <p>My Origial Canvas Paintings</p>
+              </div>
+            </a>
+            <a href="https://cyberoptimism.weebly.com">
+              <div class="project blog">
+                <h3>Blog</h3>
+                <p>
+                  Internet governance, digital wellness, presence research, and
+                  other topics
+                </p>
 
-          <a href="https://cyberoptimism.weebly.com">
-            <div class="project blog">
-              <h3>Blog</h3>
-              <p>
-                Internet governance, digital wellness, presence research, and
-                other topics in new media
-              </p>
-            </div>
-          </a>
+                <small>
+                  College blog of observations while majoring in Media Studies
+                </small>
+              </div>
+            </a>
+          </div>
         </section>
 
         <section id="my-skills">
