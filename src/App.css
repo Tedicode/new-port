@@ -205,6 +205,10 @@ section h2 {
   font-size: 1.5vw;
 }
 
+#contact-me {
+  padding: 60px 0px;
+}
+
 .contact-link {
   padding: 10px 8px;
   text-decoration: none;
