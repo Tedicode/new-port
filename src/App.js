@@ -3,7 +3,7 @@ import legoTedi from "./LegoTediPic.png";
 import githubIcon from "./github-icon.png";
 import linkedInIcon from "./linkedIn-icon.png";
 import reactLogo from "./tech-icons/react-logo.png";
-import profilePic from "./profile-pic.PNG";
+import profilePic from "./LegoTediPicCentered.png";
 import "./App.css";
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
             height="70px"
             width="70px"
             src={linkedInIcon}
-            alt="lego portrait"
+            alt="linked in"
           />
         </a>
 
@@ -61,12 +61,12 @@ function App() {
           </ul>
         </nav>
       </header>
-      <div id="grad-slide">
+      {/* <div id="grad-slide">
         <img src={legoTedi} alt="graphic" />
         <div class="grad-div">
-          {/* <div class="white-div">me</div> */}
+
           <div class="purple-div">
-            <p>Hello, my name is Tedi Lowney.</p>
+            <p>Hello, I'm Tedi Lowney.</p>
             <p>
               I'm a full stack software developer with a background in IT and
               Media Studies.
@@ -75,33 +75,37 @@ function App() {
         </div>
       </div>
 
-      <div id="divider"></div>
+      <div id="divider"></div> */}
       <main class="main">
-        {/* <section id="about-me">
-          <h2>About Me</h2>
-          <div class="container-about-paragraphs">
-            <img src={profilePic} alt="profile pic" class="profile-pic" />
-            <p class="paragraph-about-me">
-              Hello, I am a full stack software developer with a background in
-              Information Technology and Media Studies.
-            </p>
-            <p>
-              I trained in front-end and back-end JavaScript development at
-              Fullstack Academy. Prior to my shift into software engineering I
-              worked in IT, both for a large healthcare system and in an
-              educational setting.{" "}
-            </p>
-            <p>
-              I enjoy creative and social subjects as much as I do technology.
-              As these forces are ever more entwined, I look forward to building
-              upon the tech stack I've learned at bootcamp and discovering new
-              directions in technology.
-            </p>
+        <section id="about-me">
+          <div class="container-about">
+            <div class="profile-pic">
+              {/* <img
+                src={profilePic}
+                alt="profile pic"
+                height="250px"
+                width="250px"
+                class="profile-pic"
+              /> */}
+            </div>
+            <div class="intro-div">
+              <h2 class="my-name">Tedi Lowney</h2>
+              <h3 class="my-title">Fullstack Software Developer</h3>
+            </div>
           </div>
-        </section> */}
+          <p class="my-paragraph">
+            as;ldkjfas;ld fja;sdl fkjasdf as;ldkjfas;ld fja;sdl fkjasdf
+            as;ldkjfas;ld fja; fkjasdf as;ldkjfas;ld fja;sdl fkjasdf
+            as;ldkjfas;ld fja;sdl fkjasdf as;ldkja;sdl fkjasdf as;ldkjfas;ld
+            fja;sdl fkjasdf akjfas;ld fja;sdl fkjasdf as;ldkja;sdl fkjasdf
+            as;ldkjfas;ld fja;sdl fkjasdf akjfas;ld fja;s as;ldkja;sdl fkjasdf
+            as;ldkjfas;ld fja;sdl fkjasdf akjfas;ld fja;s as;ldkja;sdl fkjasdf
+            as;ldkjfas;ld fja;sdl fkjasdf akjfas;ld fja;s
+          </p>
+        </section>
 
         <section id="my-projects">
-          <h2>My Projects</h2>
+          <h2>Projects </h2>
           <a href="https://github.com/cs-team-02/neighbor-fave">
             <div class="project neighbor-fave">
               <h3>NeighborFave</h3>
@@ -137,7 +141,7 @@ function App() {
         </section>
 
         <section id="my-skills">
-          <h2>My Skills</h2>
+          <h2>Skills </h2>
           <div class="skills-div">
             <div>
               <img
@@ -170,7 +174,7 @@ function App() {
         </section>
 
         <section id="contact-me">
-          <h2>Contact me</h2>
+          <h2> &lt; Contact me &gt;</h2>
           <div className="contact-div">
             <a
               className="contact-link"
