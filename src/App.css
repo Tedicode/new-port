@@ -353,32 +353,6 @@ section h2 {
     width: 220px;
   }
 
-  /* .neighbor-fave:hover {
-  background-image: url("NeighborFavePicWide.png");
-  background-size: contain;
-  opacity: 0.5;
-  border-width: 3px;
-  color: black;
-  font-weight: bolder;
-}
-
-
-
-.chocolatier:hover {
-  background-image: url("ChocolatierImage.png");
-  background-size: contain;
-}
-
-.art:hover {
-  background-image: url("BrrEmoji.jpg");
-  background-size: contain;
-}
-
-.blog:hover {
-  background-image: url("PicOfBlogCyberOptimism.png");
-  background-size: contain;
-} */
-
   .single-skill-div * {
     font-size: 4vw;
     margin: 1px;
