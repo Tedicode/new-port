@@ -12,6 +12,10 @@ import nodeLogo from "./tech-icons/node-logo.png";
 import htmlLogo from "./tech-icons/html-logo.png";
 import cssLogo from "./tech-icons/css-logo.png";
 import profilePic from "./LegoTediPicCentered.png";
+import NFpic from "./NeighborFavePicWide.png";
+import Chocpic from "./ChocolatierImage.png";
+import BrrEmoji from "./BrrEmoji.jpg";
+import blogPic from "./PicOfBlogCyberOptimism.png";
 import "./App.css";
 
 function App() {
@@ -145,6 +149,7 @@ function App() {
                   favors and chat
                 </p>
                 <small>Capstone Project at FSA</small>
+                <img src={NFpic}></img>
               </div>
             </a>
             <a href="https://graceshopper-chocolates.herokuapp.com/">
@@ -154,6 +159,7 @@ function App() {
                   An E-commerce site for chocolates, a full stack application{" "}
                 </p>
                 <small>A Team Project at FSA</small>
+                <img src={Chocpic}></img>
               </div>
             </a>
           </div>
@@ -163,6 +169,7 @@ function App() {
               <div class="project art">
                 <h3>Art</h3>
                 <p>My Origial Canvas Paintings</p>
+                <img src={BrrEmoji}></img>
               </div>
             </a>
             <a href="https://cyberoptimism.weebly.com">
@@ -173,9 +180,8 @@ function App() {
                   other topics
                 </p>
 
-                <small>
-                  College blog of observations while majoring in Media Studies
-                </small>
+                <small>College blog for Media Studies</small>
+                <img src={blogPic}></img>
               </div>
             </a>
           </div>

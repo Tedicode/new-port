@@ -165,6 +165,10 @@ section h2 {
   vertical-align: middle;
 }
 
+.project img {
+  display: none;
+}
+
 /* .project small {
   font-weight: bold;
 } */
@@ -174,22 +178,22 @@ section h2 {
 
 .neighbor-fave:hover {
   background-image: url("NeighborFavePicWide.png");
-  background-size: contain;
+  background-size: cover;
 }
 
 .chocolatier:hover {
   background-image: url("ChocolatierImage.png");
-  background-size: contain;
+  background-size: cover;
 }
 
 .art:hover {
   background-image: url("BrrEmoji.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 .blog:hover {
   background-image: url("PicOfBlogCyberOptimism.png");
-  background-size: contain;
+  background-size: cover;
 }
 
 .single-skill-div {
@@ -319,6 +323,19 @@ section h2 {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .project img {
+    display: inline-block;
+    width: 55%;
+    height: 45%;
+    margin-top: 0px;
+  }
+
+  .project small {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 500px) {
   section h2 {
     font-size: 6vw;
@@ -327,6 +344,40 @@ section h2 {
   .navbar li {
     padding: 2px;
   }
+
+  .profile-pic {
+    clip-path: circle(150px at center);
+    margin: 0px;
+
+    height: 220px;
+    width: 220px;
+  }
+
+  /* .neighbor-fave:hover {
+  background-image: url("NeighborFavePicWide.png");
+  background-size: contain;
+  opacity: 0.5;
+  border-width: 3px;
+  color: black;
+  font-weight: bolder;
+}
+
+
+
+.chocolatier:hover {
+  background-image: url("ChocolatierImage.png");
+  background-size: contain;
+}
+
+.art:hover {
+  background-image: url("BrrEmoji.jpg");
+  background-size: contain;
+}
+
+.blog:hover {
+  background-image: url("PicOfBlogCyberOptimism.png");
+  background-size: contain;
+} */
 
   .single-skill-div * {
     font-size: 4vw;
