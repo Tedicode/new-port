@@ -91,8 +91,8 @@ function App() {
             </div>
           </div>
           <p class="my-paragraph">
-            Hello, welcome to my portfolio page. My name is Tedi and I’m a
-            Fullstack React/Node developer with a background in IT and Media
+            Hello, welcome to my portfolio page. My name is Tedi and I’m a full
+            stack React/Node developer with a background in IT and Media
             Studies.
           </p>
 
