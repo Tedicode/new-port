@@ -92,19 +92,20 @@ function App() {
           </div>
           <p class="my-paragraph">
             Hello, welcome to my portfolio page. My name is Tedi and I’m a
-            software developer with a background in IT and Media Studies.
+            Fullstack React/Node developer with a background in IT and Media
+            Studies.
           </p>
 
           <p class="my-paragraph">
             I trained in full stack JavaScript development at the Fullstack
-            Academy. Check out our capstone project {""}
+            Academy. See my team's capstone project, {""}
             <a
               className="link-to-NF"
               href="https://github.com/cs-team-02/neighbor-fave"
             >
               NeighborFave
             </a>{" "}
-            !
+            here!
           </p>
           <p class="my-paragraph">
             This month I took part in the #TakeHaction2022 Hackathon for Social
