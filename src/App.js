@@ -16,27 +16,12 @@ import NFpic from "./NeighborFavePicWide.png";
 import Chocpic from "./ChocolatierImage.png";
 import BrrEmoji from "./BrrEmoji.jpg";
 import blogPic from "./PicOfBlogCyberOptimism.png";
+import RpplPic from "./Rppl-screenshot.png";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-      {/* <header>My header</header> */}
       <header>
         <a href="https://www.linkedin.com/in/tedilowney">
           <img
@@ -112,24 +97,40 @@ function App() {
 
           <p class="my-paragraph">
             I trained in full stack JavaScript development at the Fullstack
-            Academy. In the first six weeks at bootcamp, I learned the PERN
-            stack and was able to build a simple CRUD app with Sequelize as the
-            ORM of choice and Redux for state management. By the end of
-            bootcamp, my capstone team conceived, designed and built {""}
+            Academy. Check out our capstone project {""}
             <a
               className="link-to-NF"
               href="https://github.com/cs-team-02/neighbor-fave"
             >
               NeighborFave
-            </a>
-            , a full stack progressive web app, downloadable on mobile and
-            desktop, in just twenty days!
+            </a>{" "}
+            !
           </p>
           <p class="my-paragraph">
-            I can’t wait to learn more as a developer, building for the web,
-            apps and microservices within larger systems. It will be a bonus to
-            work within a tech company that aims to improve some corner of our
-            world - to be cleaner, safer, more efficient, or more fun!
+            This month I took part in the #TakeHaction2022 Hackathon for Social
+            Good at ADA Developers Academy. We made{" "}
+            <a
+              href="https://github.com/k-dodsonknapp/ada-Accessibility-App"
+              className="link-to-NF"
+            >
+              Rppl
+            </a>
+            , a tracking app for mental health, and here's the{" "}
+            <a
+              href="https://www.youtube.com/watch?time_continue=1&v=k7h5RS23L6k&feature=emb_logo"
+              className="link-to-NF"
+            >
+              {" "}
+              video{" "}
+            </a>{" "}
+            pitch.
+          </p>
+          <p class="my-paragraph">
+            I am currently exploring GraphQL, NextJS and TypeScript, and I can’t
+            wait to learn more as a developer, building for the web, apps and
+            microservices within larger systems. It will be a bonus to work
+            within a tech company that aims to improve some corner of our world
+            - to be cleaner, safer, more efficient, or more fun!
           </p>
         </section>
 
@@ -155,18 +156,26 @@ function App() {
                 <p>
                   An E-commerce site for chocolates, a full stack application{" "}
                 </p>
-                <small>A Team Project at FSA</small>
+                <small>Team Project at FSA</small>
                 <img src={Chocpic}></img>
               </div>
             </a>
           </div>
           <div class="non-web-projects project-sub-div">
             {" "}
-            <a href="https://www.artpal.com/FunPaint">
+            {/* <a href="https://www.artpal.com/FunPaint">
               <div class="project art">
                 <h3>Art</h3>
                 <p>My Origial Canvas Paintings</p>
                 <img src={BrrEmoji}></img>
+              </div>
+            </a>
+             */}
+            <a href="https://github.com/k-dodsonknapp/ada-Accessibility-App">
+              <div class="project rppl">
+                <h3>Rppl</h3>
+                <p>A Tracking App for Mental Health</p>
+                <img src={RpplPic}></img>
               </div>
             </a>
             <a href="https://cyberoptimism.weebly.com">
@@ -177,7 +186,7 @@ function App() {
                   other topics
                 </p>
 
-                <small>College blog for Media Studies</small>
+                <small>Blog of Media Studies</small>
                 <img src={blogPic}></img>
               </div>
             </a>

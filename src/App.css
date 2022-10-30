@@ -160,7 +160,7 @@ section h2 {
   height: 40vh;
   color: rgb(42, 42, 186);
   border: 0.5px solid rgba(200, 78, 249, 0.274);
-  background-color: rgb(201, 244, 255);
+  background-color: rgb(216, 239, 187);
   border-radius: 15px;
   vertical-align: middle;
 }
@@ -188,6 +188,11 @@ section h2 {
 
 .art:hover {
   background-image: url("BrrEmoji.jpg");
+  background-size: cover;
+}
+
+.rppl:hover {
+  background-image: url("Rppl-screenshot.png");
   background-size: cover;
 }
 
