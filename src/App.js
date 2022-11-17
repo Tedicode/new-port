@@ -151,7 +151,7 @@ function App() {
                 <img src={NFpic}></img>
               </div>
             </a>
-            <a href="https://graceshopper-chocolates.herokuapp.com/">
+            <a href="https://grace-shopper-chocolates.onrender.com/products">
               <div class="project chocolatier">
                 <h3>Chocolatier</h3>
                 <p>
