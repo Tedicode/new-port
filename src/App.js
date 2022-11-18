@@ -108,8 +108,8 @@ function App() {
             here!
           </p>
           <p class="my-paragraph">
-            This month I took part in the #TakeHaction2022 Hackathon for Social
-            Good at ADA Developers Academy. We made{" "}
+            At the #TakeHaction2022 Hackathon for Social Good at ADA Developers
+            Academy, we made{" "}
             <a
               href="https://github.com/k-dodsonknapp/ada-Accessibility-App"
               className="link-to-NF"
