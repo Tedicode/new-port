@@ -176,6 +176,7 @@ function App() {
               <div class="project rppl">
                 <h3>Rppl</h3>
                 <p>A Tracking App for Mental Health</p>
+                <small>#TakeHacktion2022 Hackathon project</small>
                 <img src={RpplPic}></img>
               </div>
             </a>
